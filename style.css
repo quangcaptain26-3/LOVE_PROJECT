@@ -332,6 +332,40 @@ body {
   }
 }
 
+/* ===== LOGO STYLING ===== */
+.website-logo {
+  position: relative;
+  z-index: 10;
+}
+
+.love-logo {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  animation: logoFloat 3s ease-in-out infinite;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.love-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 15px 40px rgba(255, 107, 157, 0.4);
+  border-color: var(--cute-pink);
+}
+
+@keyframes logoFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+}
+
 /* ===== HERO SECTION ENHANCEMENTS ===== */
 .hero-section {
   min-height: 100vh;
@@ -899,91 +933,98 @@ body {
 }
 
 .ending-heart-line {
-    display: block;
-    margin-top: 1rem;
-    font-size: 1.1rem;
-    animation: heartWave 3s ease-in-out infinite;
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  animation: heartWave 3s ease-in-out infinite;
 }
 
 /* ===== LOVE CHOICE BUTTONS ===== */
 .love-choice-container {
-    margin: 3rem 0;
-    position: relative;
-    z-index: 10;
+  margin: 3rem 0;
+  position: relative;
+  z-index: 10;
 }
 
 .choice-question {
-    font-size: 1.5rem;
-    color: var(--white);
-    margin-bottom: 2rem;
-    font-weight: 500;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .choice-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    align-items: center;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  position: relative;
 }
 
 .choice-btn {
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    z-index: 10;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 10;
 }
 
 .love-btn {
-    background: linear-gradient(135deg, #ff6b9d, #c44569);
-    color: white;
-    border: 3px solid #ffb3d9;
+  background: linear-gradient(135deg, #ff6b9d, #c44569);
+  color: white;
+  border: 3px solid #ffb3d9;
 }
 
 .love-btn:hover {
-    transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 8px 25px rgba(255, 107, 157, 0.4);
-    animation: heartbeat 0.6s ease-in-out infinite;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(255, 107, 157, 0.4);
+  animation: heartbeat 0.6s ease-in-out infinite;
 }
 
 .no-love-btn {
-    background: linear-gradient(135deg, #666, #999);
-    color: white;
-    border: 3px solid #ccc;
-    transition: all 0.2s ease;
+  background: linear-gradient(135deg, #666, #999);
+  color: white;
+  border: 3px solid #ccc;
+  transition: all 0.2s ease;
 }
 
 .no-love-btn:hover {
-    background: linear-gradient(135deg, #ff4757, #ff3742);
-    border-color: #ff6b9d;
-    transform: translateY(-3px);
+  background: linear-gradient(135deg, #ff4757, #ff3742);
+  border-color: #ff6b9d;
+  transform: translateY(-3px);
 }
 
 .no-love-btn.moving {
-    transition: all 0.3s ease;
-    pointer-events: none;
+  transition: all 0.3s ease;
+  pointer-events: none;
 }
 
 .no-love-btn.returning {
-    transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 @keyframes buttonShake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    75% { transform: translateX(5px); }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
 }
 
 .no-love-btn.shake {
-    animation: buttonShake 0.5s ease-in-out;
+  animation: buttonShake 0.5s ease-in-out;
 }
 
 /* ===== RESPONSIVE DESIGN ===== */

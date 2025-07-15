@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Quang & Ánh - Our Adorable Love Story 💕</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Pacifico&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Multiple Heart Animation Layers -->
+    <div class="floating-hearts" id="floating-hearts"></div>
+    <div class="heart-rain" id="heart-rain"></div>
+    <div class="pulse-hearts" id="pulse-hearts"></div>
+    <div class="sparkle-hearts" id="sparkle-hearts"></div>
+
+    <!-- Corner Hearts -->
+    <div class="corner-hearts">
+        <div class="corner-heart top-left">💖</div>
+        <div class="corner-heart top-right">💕</div>
+        <div class="corner-heart bottom-left">💗</div>
+        <div class="corner-heart bottom-right">💝</div>
+    </div>
+
+    <!-- Heart Border Decoration -->
+    <div class="heart-border-decoration">
+        <div class="heart-border top">💕💖💗💘💝💗💖💕💖💗💘💝💗💖💕</div>
+        <div class="heart-border bottom">💕💖💗💘💝💗💖💕💖💗💘💝💗💖💕</div>
+    </div>
+
+    <!-- 1. SUPER CUTE LANDING SECTION -->
+    <section class="hero-section d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <div class="hero-content">
+                <!-- 🔧 CUSTOMIZE: Change names here -->
+                <div class="cute-hearts-wrapper">
+                    <div class="heart-decoration-top">
+                        💕💖💗💘💝💗💖💕
+                    </div>
+
+                    <h1 class="hero-title">
+                        <span class="name-with-hearts">
+                            <span class="heart-left">💝</span>
+                            Quang
+                            <span class="heart-right">💝</span>
+                        </span>
+
+                        <div class="mega-heart-container">
+                            <div class="mega-heart">
+                                <span class="heart-stack">
+                                    <span class="heart-1">💖</span>
+                                    <span class="heart-2">💕</span>
+                                    <span class="heart-3">💗</span>
+                                    <span class="heart-4">💘</span>
+                                </span>
+                            </div>
+                            <div class="heart-sparkles">
+                                <span class="sparkle s1">✨</span>
+                                <span class="sparkle s2">💫</span>
+                                <span class="sparkle s3">⭐</span>
+                                <span class="sparkle s4">✨</span>
+                            </div>
+                        </div>
+
+                        <span class="name-with-hearts">
+                            <span class="heart-left">💝</span>
+                            Ánh
+                            <span class="heart-right">💝</span>
+                        </span>
+                    </h1>
+
+                    <div class="heart-decoration-bottom">
+                        💕💖💗💘💝💗💖💕
+                    </div>
+                </div>
+
+                <!-- 🔧 CUSTOMIZE: Change zodiac signs -->
+                <p class="hero-subtitle">
+                    <span class="zodiac-cute">
+                        ✨💫 From Aries ♈ to Taurus ♉ 💫✨
+                    </span>
+                </p>
+                <p class="hero-description">
+                    💫 A love story written in the stars 💫
+                    <br>
+                    <span class="heart-divider">💕 💖 💗 💘 💝 💗 💖 💕</span>
+                    <br>
+                    <span class="cute-message">Where every heartbeat sings your name 💕</span>
+                </p>
+
+                <!-- Love Choice Buttons -->
+                <div class="love-choice-container">
+                    <div class="choice-question">
+                        💕 Bạn có yêu tôi không? 💕
+                    </div>
+                    <div class="choice-buttons">
+                        <button id="love-btn" class="choice-btn love-btn">
+                            💖 Yêu 💖
+                        </button>
+                        <button id="no-love-btn" class="choice-btn no-love-btn">
+                            💔 Không yêu 💔
+                        </button>
+                    </div>
+                </div>
+
+                <div class="scroll-indicator">
+                    <div class="bouncing-hearts">
+                        <span class="bouncing-heart h1">💖</span>
+                        <span class="bouncing-heart h2">💕</span>
+                        <span class="bouncing-heart h3">💗</span>
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. LOVE QUOTES SECTION WITH HEARTS -->
+    <section class="quotes-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title">
+                        💕 Words of Love 💕
+                        <div class="title-hearts">
+                            <span class="title-heart">💖</span>
+                            <span class="title-heart">💗</span>
+                            <span class="title-heart">💘</span>
+                        </div>
+                    </h2>
+                    <div class="quote-container">
+                        <div class="quote-hearts-decoration">
+                            <span class="quote-heart qh1">💕</span>
+                            <span class="quote-heart qh2">💖</span>
+                            <span class="quote-heart qh3">💗</span>
+                            <span class="quote-heart qh4">💘</span>
+                        </div>
+                        <p class="love-quote" id="love-quote">Loading beautiful words...</p>
+                        <div class="quote-author">💝 For Quang & Ánh 💝</div>
+                        <div class="quote-bottom-hearts">💕💖💗💘💝💗💖💕</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PHOTO GALLERY SECTION -->
+    <section class="gallery-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">
+                💖 Our Beautiful Moments 💖
+                <div class="gallery-title-hearts">
+                    💕💗💘💝💘💗💕
+                </div>
+            </h2>
+            <div class="row g-4">
+                <!-- 🔧 CUSTOMIZE: Replace image sources with your photos -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <div class="gallery-hearts">
+                            <span class="gh1">💕</span>
+                            <span class="gh2">💖</span>
+                        </div>
+                        <img src="assets/quag.jpg" alt="Quang" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <p>💝 Quang ✨</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <div class="gallery-hearts">
+                            <span class="gh1">💗</span>
+                            <span class="gh2">💘</span>
+                        </div>
+                        <img src="assets/ánh.jpg" alt="Ánh" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <p>💝 Ánh 💫</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <div class="gallery-hearts">
+                            <span class="gh1">💝</span>
+                            <span class="gh2">💖</span>
+                        </div>
+                        <img src="assets/hoa.jpg" alt="Together 1" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <p>💐 Our Flower 💐</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <div class="gallery-hearts">
+                            <span class="gh1">💕</span>
+                            <span class="gh2">💗</span>
+                        </div>
+                        <img src="assets/ptb1.JPG" alt="Together 2" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <p>💖 Our Cute Moments 🌟</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <div class="gallery-hearts">
+                            <span class="gh1">💘</span>
+                            <span class="gh2">💝</span>
+                        </div>
+                        <img src="assets/ptb2.jpg" alt="Together 3" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <p>💗 Sweet Memories 💖</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <div class="gallery-hearts">
+                            <span class="gh1">💖</span>
+                            <span class="gh2">💕</span>
+                        </div>
+                        <img src="assets/date.jpg" alt="Together 4" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <p>💘 Our Date 💖</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. TIMELINE SECTION -->
+    <section class="timeline-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">
+                💕 Our Love Timeline 💕
+                <div class="timeline-title-hearts">
+                    💖💗💘💝💘💗💖
+                </div>
+            </h2>
+            <div class="timeline">
+                <!-- Updated with real love story dates -->
+                <div class="timeline-item">
+                    <div class="timeline-date">💕 May 22, 2025 💕</div>
+                    <div class="timeline-content">
+                        <div class="timeline-hearts">
+                            <span class="th1">💖</span>
+                            <span class="th2">💗</span>
+                        </div>
+                        <h4>💝 First Meeting</h4>
+                        <p>Lần đầu gặp Ánh của tôi - The day our hearts first connected. 💕</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">💖 June 9, 2025 💖</div>
+                    <div class="timeline-content">
+                        <div class="timeline-hearts">
+                            <span class="th1">💘</span>
+                            <span class="th2">💝</span>
+                        </div>
+                        <h4>💗 Going Out Together</h4>
+                        <p>Đi chơi cùng nhau - Our first adventure together, creating beautiful memories. 💖</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">💗 June 13, 2025 💗</div>
+                    <div class="timeline-content">
+                        <div class="timeline-hearts">
+                            <span class="th1">💕</span>
+                            <span class="th2">💖</span>
+                        </div>
+                        <h4>💘 Going Public</h4>
+                        <p>Công khai - The moment we decided to share our love with the world. 💝</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">💘 June 15, 2025 💘</div>
+                    <div class="timeline-content">
+                        <div class="timeline-hearts">
+                            <span class="th1">💗</span>
+                            <span class="th2">💘</span>
+                        </div>
+                        <h4>💖 First Official Date</h4>
+                        <p>Hẹn hò đầu tiên - Our first official date, marking the beginning of our journey. 💕</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">💝 June 28, 2025 💝</div>
+                    <div class="timeline-content">
+                        <div class="timeline-hearts">
+                            <span class="th1">💝</span>
+                            <span class="th2">💖</span>
+                        </div>
+                        <h4>🌞 Our Little Sunshine</h4>
+                        <p>Created our Instagram page "our.little.sunshine" - sharing our sunshine moments with the
+                            world. ☀️💗</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">💖 Present 💖</div>
+                    <div class="timeline-content">
+                        <div class="timeline-hearts">
+                            <span class="th1">💕</span>
+                            <span class="th2">💗</span>
+                        </div>
+                        <h4>💕 Still In Love</h4>
+                        <p>Yêu nhau đến bây giờ - Our love continues to grow stronger every single day. 💖</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ENDING SECTION -->
+    <section class="ending-section py-5 text-center">
+        <div class="container">
+            <div class="ending-content">
+                <!-- 🔧 CUSTOMIZE: Change final message here -->
+                <div class="ending-hearts-decoration">
+                    <div class="ending-heart-circle">
+                        <span class="eh1">💖</span>
+                        <span class="eh2">💕</span>
+                        <span class="eh3">💗</span>
+                        <span class="eh4">💘</span>
+                        <span class="eh5">💝</span>
+                        <span class="eh6">💗</span>
+                        <span class="eh7">💖</span>
+                        <span class="eh8">💕</span>
+                    </div>
+                </div>
+
+                <div class="heartbeat-icon">
+                    <div class="mega-heartbeat">
+                        <span class="hb1">💖</span>
+                        <span class="hb2">💕</span>
+                        <span class="hb3">💗</span>
+                    </div>
+                </div>
+
+                <h2 class="ending-title">
+                    💕 Our love doesn't need words, 💕
+                    <br>
+                    💖 it shines in every heartbeat. 💖
+                </h2>
+                <p class="ending-subtitle">
+                    💝 Quang ❤️ Ánh - Forever and Always 💝
+                    <br>
+                    <span class="ending-heart-line">💕💖💗💘💝💗💖💕</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

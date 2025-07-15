@@ -1,9 +1,3 @@
-Tuyệt vời! Để làm cho README của bạn vừa chuyên nghiệp vừa đáng yêu, chúng ta sẽ thêm phần giấy phép MIT và thông tin LinkedIn của bạn.
-
-Dưới đây là phiên bản cập nhật:
-
----
-
 # 💕 Quang & Ánh - Our Adorable Love Story 💕
 
 <p align="center">

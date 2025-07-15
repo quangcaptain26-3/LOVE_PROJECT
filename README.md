@@ -1,3 +1,9 @@
+Tuyệt vời! Để làm cho README của bạn vừa chuyên nghiệp vừa đáng yêu, chúng ta sẽ thêm phần giấy phép MIT và thông tin LinkedIn của bạn.
+
+Dưới đây là phiên bản cập nhật:
+
+---
+
 # 💕 Quang & Ánh - Our Adorable Love Story 💕
 
 <p align="center">
@@ -80,6 +86,15 @@ Bây giờ, bạn có thể mở file `index.html` bằng trình duyệt web yê
 
 ## 🛠️ Công nghệ được sử dụng (với một chút phép thuật ✨)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge"/>
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Badge"/>
+  <img src="https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white" alt="Font Awesome Badge"/>
+  <img src="https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google-fonts&logoColor=white" alt="Google Fonts Badge"/>
+</p>
+
 *   **HTML5:** Cấu trúc của trang web đáng yêu này.
 *   **CSS3:** Mang đến tất cả sự dễ thương, màu hồng và hiệu ứng trái tim bay lượn.
 *   **JavaScript:** Tạo nên sự tương tác, các hiệu ứng động và carousel trích dẫn tình yêu.
@@ -87,11 +102,30 @@ Bây giờ, bạn có thể mở file `index.html` bằng trình duyệt web yê
 *   **Font Awesome:** Thêm các biểu tượng nhỏ xinh.
 *   **Google Fonts:** Mang đến những kiểu chữ mềm mại, lãng mạn (`Dancing Script`, `Pacifico`, `Poppins`).
 
-## 💌 Lời nhắn từ trái tim
+## 📄 Giấy phép (License)
 
-Dự án này là một minh chứng cho tình yêu và niềm hạnh phúc mà Quang và Ánh chia sẻ. Chúng mình hy vọng nó sẽ mang lại nụ cười và cảm hứng cho bất kỳ ai ghé thăm.
+Dự án này được cấp phép theo Giấy phép MIT. Điều đó có nghĩa là bạn có thể tự do sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối, cấp phép lại và/hoặc bán các bản sao của phần mềm này. Hãy xem file `LICENSE` để biết thêm chi tiết nhé!
 
-Nếu bạn có bất kỳ câu hỏi nào hoặc cần giúp đỡ trong quá trình tùy chỉnh, đừng ngần ngại liên hệ nhé!
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License Badge"/>
+  </a>
+</p>
+
+## 💖 Liên hệ và Kết nối (Connect with the Creator!)
+
+Nếu bạn có bất kỳ câu hỏi nào, muốn đóng góp, hoặc chỉ đơn giản là muốn kết nối và chia sẻ những câu chuyện đáng yêu, đừng ngần ngại liên hệ với mình nhé!
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/minhquang2604">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="mailto:phamminhquang2603@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
+  </a>
+</p>
 
 Cảm ơn bạn đã ghé thăm và chia sẻ niềm vui với chúng mình!
  💕
+
+---
